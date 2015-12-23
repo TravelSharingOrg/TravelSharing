@@ -246,6 +246,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\TravelSharing.Data.Models\TravelSharing.Data.Models.csproj">
+      <Project>{0e7cf79d-c1f4-4da2-b0de-139a04bef98c}</Project>
+      <Name>TravelSharing.Data.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\TravelSharing.Data\TravelSharing.Data.csproj">
+      <Project>{719de55a-41cc-4116-8d1b-29380f61c38a}</Project>
+      <Name>TravelSharing.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

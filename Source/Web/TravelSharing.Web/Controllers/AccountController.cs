@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using TravelSharing.Web.Models;
+using TravelSharing.Data.Models;
 
 namespace TravelSharing.Web.Controllers
 {
