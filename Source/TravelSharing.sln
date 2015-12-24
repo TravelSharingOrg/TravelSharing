@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelSharing.Data", "Data\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelSharing.Data.Models", "Data\TravelSharing.Data.Models\TravelSharing.Data.Models.csproj", "{0E7CF79D-C1F4-4DA2-B0DE-139A04BEF98C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelSharing.Data.Contracts", "Data\TravelSharing.Data.Contracts\TravelSharing.Data.Contracts.csproj", "{F23B5BF7-08EB-4887-B617-A72ECC1A6EA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{0E7CF79D-C1F4-4DA2-B0DE-139A04BEF98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E7CF79D-C1F4-4DA2-B0DE-139A04BEF98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E7CF79D-C1F4-4DA2-B0DE-139A04BEF98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F23B5BF7-08EB-4887-B617-A72ECC1A6EA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23B5BF7-08EB-4887-B617-A72ECC1A6EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23B5BF7-08EB-4887-B617-A72ECC1A6EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23B5BF7-08EB-4887-B617-A72ECC1A6EA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 		{9C94DFBA-7C35-4A2C-BE28-923D72A4D337} = {F5635CC0-675D-4D9F-9720-325D18A6AD9F}
 		{719DE55A-41CC-4116-8D1B-29380F61C38A} = {4B91D10F-D171-4C8D-8865-73864BACD926}
 		{0E7CF79D-C1F4-4DA2-B0DE-139A04BEF98C} = {4B91D10F-D171-4C8D-8865-73864BACD926}
+		{F23B5BF7-08EB-4887-B617-A72ECC1A6EA0} = {4B91D10F-D171-4C8D-8865-73864BACD926}
 	EndGlobalSection
 EndGlobal
